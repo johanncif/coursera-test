@@ -1,1 +1,122 @@
+/****MODULE 2 CSS STYLES****/
 
+/****BASE STYLES****/
+{
+	/*box-sizing: border-box;*/
+}
+
+h2{
+	text-align: center;
+	font-weight: bold;
+}
+
+p{
+	border: 1px solid black;
+	background-color: grey;
+	font-weight: bold;
+	padding: 10px;
+
+}
+
+#chicken{
+	background-color: pink;
+	font-weight: bold;
+	float: right;
+	position: relative;
+	top: 0px;
+	padding: 0px 24px 2px 24px;
+	border: solid black 2px;
+
+}
+
+#beef{
+	background-color: #B32E0A;
+	color: whitesmoke;
+	font-weight: bold;
+	float: right;
+	position: relative;
+	top: 0px;
+	padding: 0px 37px 2px 37px;
+	border: solid black 2px;
+
+}
+
+#sushi{
+	background-color: #ECDA9E;
+	font-weight: bold;
+	float: right;
+	position: relative;
+	top: 0px;
+	padding: 0px 33px 2px 33px;
+	border: solid black 2px;
+
+}
+
+.row
+{
+	width: 100%;
+}
+
+/****DESKTOP SIZE (LARGE)****/
+@media (min-width: 992px){
+
+	.large-1, .large-2, .large-3{
+		float: left;
+	}
+
+	.large-1{
+		width: 33.33%;
+	}
+
+	.large-2{
+		width: 33.33%;
+	}
+
+	.large-3{
+		width: 33.33%;
+	}
+
+}
+
+/****TABLET SIZE (MEDIUM)****/
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.med-1, .med-2, .med-3{
+		float: left;
+	}
+
+	.med-1{
+		width: 50%;
+	}
+
+	.med-2{
+		width: 50%;
+	}
+
+	.med-3{
+		width: 100%;
+	}
+
+}
+
+
+/****MOBILE SIZE****/
+@media (max-width: 767px)
+{
+	.small-1, .small-2, .small-3{
+		float: left;
+	}
+
+	.small-1{
+		width: 100%;
+	}
+
+	.small-3{
+		width: 100%;
+	}
+
+	.small-3{
+		width: 100%;
+	}
+
+}
