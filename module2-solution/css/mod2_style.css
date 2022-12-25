@@ -1,21 +1,29 @@
 /****MODULE 2 CSS STYLES****/
 
 /****BASE STYLES****/
-{
-	/*box-sizing: border-box;*/
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+section{
+	margin-top: 25px;
 }
 
 h2{
 	text-align: center;
 	font-weight: bold;
+	font-size: 175%;
 }
 
 p{
-	border: 1px solid black;
-	background-color: grey;
+	background-color: #878A8A;
 	font-weight: bold;
-	padding: 10px;
-
+	padding: 50px 10px 10px 10px;
+	border: 1px solid black;
 }
 
 #chicken{
@@ -24,9 +32,8 @@ p{
 	float: right;
 	position: relative;
 	top: 0px;
-	padding: 0px 24px 2px 24px;
-	border: solid black 2px;
-
+	padding: 5px 40px 5px 40px;
+	border: solid black 1px;
 }
 
 #beef{
@@ -36,8 +43,8 @@ p{
 	float: right;
 	position: relative;
 	top: 0px;
-	padding: 0px 37px 2px 37px;
-	border: solid black 2px;
+	padding: 5px 52px 5px 52px;
+	border: solid black 1px;
 
 }
 
@@ -47,8 +54,8 @@ p{
 	float: right;
 	position: relative;
 	top: 0px;
-	padding: 0px 33px 2px 33px;
-	border: solid black 2px;
+	padding: 5px 48px 5px 48px;
+	border: solid black 1px;
 
 }
 
@@ -65,15 +72,18 @@ p{
 	}
 
 	.large-1{
-		width: 33.33%;
+		width: 30%;
+		margin-left: 30px;
+		margin-right: 30px;
 	}
 
 	.large-2{
-		width: 33.33%;
+		width: 30%;
+		margin-right: 15px;
 	}
 
 	.large-3{
-		width: 33.33%;
+		width: 30%;
 	}
 
 }
@@ -86,21 +96,25 @@ p{
 	}
 
 	.med-1{
-		width: 50%;
+		width: 45%;
+		margin-left: 30px;
 	}
 
 	.med-2{
-		width: 50%;
+		width: 45%;
+		margin-left: 20px;
+		margin-right: 5px;
 	}
 
 	.med-3{
-		width: 100%;
+		width: 92.25%;
+		margin-left: 30px;
 	}
 
 }
 
 
-/****MOBILE SIZE****/
+/****MOBILE SIZE (SMALL)****/
 @media (max-width: 767px)
 {
 	.small-1, .small-2, .small-3{
