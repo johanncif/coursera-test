@@ -10,18 +10,23 @@ body{
 }
 
 section{
+	/*pushes boxes down*/
 	margin-top: 25px;
 }
 
 h2{
+	/*center bold text increased by 75%*/
 	text-align: center;
 	font-weight: bold;
 	font-size: 175%;
 }
 
 p{
+	/*grey background with bold font*/
 	background-color: #878A8A;
 	font-weight: bold;
+	/*50px top padding to push text down
+	below the box title*/
 	padding: 50px 10px 10px 10px;
 	border: 1px solid black;
 }
@@ -29,9 +34,13 @@ p{
 #chicken{
 	background-color: pink;
 	font-weight: bold;
+	/*positioning box title with floating and
+	relative positioning*/
 	float: right;
 	position: relative;
 	top: 0px;
+	/*padding and border to match example
+	markup*/
 	padding: 5px 40px 5px 40px;
 	border: solid black 1px;
 }
@@ -40,9 +49,13 @@ p{
 	background-color: #B32E0A;
 	color: whitesmoke;
 	font-weight: bold;
+	/*positioning box title with floating and
+	relative positioning*/
 	float: right;
 	position: relative;
 	top: 0px;
+	/*padding and border to match example
+	markup*/
 	padding: 5px 52px 5px 52px;
 	border: solid black 1px;
 
@@ -51,9 +64,13 @@ p{
 #sushi{
 	background-color: #ECDA9E;
 	font-weight: bold;
+	/*positioning box title with floating and
+	relative positioning*/
 	float: right;
 	position: relative;
 	top: 0px;
+	/*padding and border to match example
+	markup*/
 	padding: 5px 48px 5px 48px;
 	border: solid black 1px;
 
@@ -70,6 +87,9 @@ p{
 	.large-1, .large-2, .large-3{
 		float: left;
 	}
+
+	/*setting width and margin spacing to 
+	match example markup*/
 
 	.large-1{
 		width: 30%;
@@ -94,6 +114,9 @@ p{
 	.med-1, .med-2, .med-3{
 		float: left;
 	}
+
+	/*setting width and margin spacing to 
+	match example markup*/
 
 	.med-1{
 		width: 45%;
@@ -120,6 +143,9 @@ p{
 	.small-1, .small-2, .small-3{
 		float: left;
 	}
+
+	/*setting width and margin spacing to 
+	match example markup*/
 
 	.small-1{
 		width: 100%;
