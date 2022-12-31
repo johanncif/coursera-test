@@ -1,1 +1,79 @@
 /*ASSIGNMENT 3 CSS STYLING*/
+
+#page{
+	/*background-color: #bb925e;*/
+}
+
+section p{ /*dummy text in menu item box*/
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 120%;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+	color: black;
+}
+
+#header-nav{ /*navigation box*/
+	background-color: #f2d3ad;
+	border: solid black 2px;
+	height: 55px;
+}
+
+.navbar-brand div{ /*company name*/
+	font-family: sans-serif; 
+	font-weight: bold;
+	text-align: left;
+	font-size: 25px;
+	color: black;
+	text-transform: uppercase;
+
+}
+
+#collapsable-nav{
+	border: 0;
+	padding: 0;
+}
+
+#nav-list {
+  margin-top: 10px;
+  color: #951C49;
+  text-align: center;
+  font-size: 1.5em;
+  width: 100%;
+  background-color:#d4b9d4 ;
+  margin: 0;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+ }
+
+#title{ /*"Our Menu"*/
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+	color: black;
+}
+
+#menu{ /*tall text with dummy text*/
+	background-color: #f2d3ad;
+	height: 1000px;
+	margin-top: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 2px solid black;
+}
+
+#item{ /*title of menu item, such as chicken*/
+	font-family: sans-serif;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+	font-size: 20px;
+}
