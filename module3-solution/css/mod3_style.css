@@ -23,7 +23,7 @@ section p{ /*dummy text in menu item box*/
 	color: black;
 	text-transform: uppercase;
 	position: relative;
-	top: 10px;
+	top: 7px;
 }
 
 #collapsable-nav{
@@ -46,7 +46,7 @@ section p{ /*dummy text in menu item box*/
 }
 .navbar-header button.navbar-toggle {
   clear: both;
-  margin-top: -30px;
+  margin-top: -35px;
  }
 
 ul > li {
