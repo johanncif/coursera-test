@@ -32,11 +32,11 @@ section p{ /*dummy text in menu item box*/
 
 #nav-list {
   margin-top: 10px;
-  color: #951C49;
+  color: black;
   text-align: center;
   font-size: 1.5em;
   width: 100%;
-  background-color:#d4b9d4 ;
+  background-color: #f2d3ad4;
   margin: 0;
 }
 
