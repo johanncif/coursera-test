@@ -48,6 +48,10 @@ section p{ /*dummy text in menu item box*/
   margin-top: -30px;
  }
 
+ul > li {
+  border: 1px solid black;
+}
+
 #title{ /*"Our Menu"*/
 	font-family: sans-serif;
 	font-weight: bold;
