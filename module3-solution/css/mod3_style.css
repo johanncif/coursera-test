@@ -10,7 +10,7 @@ section p{ /*dummy text in menu item box*/
 }
 
 #header-nav{ /*navigation box*/
-	background-color: #f2d3ad4;
+	background-color: #f2d3ad;
 	border: solid black 2px;
 	height: 70px;
 }
@@ -37,7 +37,7 @@ section p{ /*dummy text in menu item box*/
   text-align: center;
   font-size: 1.5em;
   width: 100%;
-  background-color: #f2d3ad4;
+  background-color: #f2d3ad;
   margin: 0;
 }
 
@@ -62,7 +62,7 @@ ul > li {
 }
 
 #menu{ /*tall text with dummy text*/
-	background-color: #f2d3ad4;
+	background-color: #f2d3ad;
 	height: 1000px;
 	margin-top: 40px;
 	margin-left: 20px;
